@@ -17,3 +17,7 @@ Book.create(title: "The Complete Reference, Ninth Edition 9th Edition",
 Book.create(title: "Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808 1st Edition",
 			description: "OCA, Oracle Certified Associate Java SE 8 Programmer I Study Guide, Exam 1Z0-808 is a comprehensive study guide for those taking the Oracle Certified Associate Java SE 8 Programmer I exam (1Z0-808). With complete coverage of 100% of the exam objectives, this book provides everything you need to know to confidently take the exam. The release of Java 8 brought the language's biggest changes to date, and for the first time, candidates are",
 			author: "Jeanne Boyarsky")
+
+Category.create(name: 'Technology')
+Category.create(name: 'Business')
+Category.create(name: 'English')
