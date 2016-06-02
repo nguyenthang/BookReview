@@ -7,7 +7,7 @@ class BooksController < ApplicationController
       @books = Book.all.order('created_at DESC')
     else
       @category_id = Category.find_by_name(:category_id).id
-      @bx gbooks = Book.where(:category_id => @category_id``)
+      @books = Book.where(:category_id => @category_id)
     end
   end
 
